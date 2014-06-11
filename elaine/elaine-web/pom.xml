@@ -19,6 +19,11 @@
 		<org.slf4j-version>1.6.6</org.slf4j-version>
 	</properties>
 	<dependencies>
+		<dependency>
+			<groupId>com.brokenq</groupId>
+			<artifactId>elaine-core</artifactId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
 		<!-- Spring -->
 		<dependency>
 			<groupId>org.springframework</groupId>
