@@ -9,4 +9,20 @@
   	<relativePath>../pom.xml</relativePath>
   </parent>
   
+  <dependencyManagement>
+  	<dependencies>
+  		<!-- spring-jdbc -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
+		</dependency>
+		
+		<!-- druid -->
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>druid</artifactId>
+		</dependency>
+  	</dependencies>
+  </dependencyManagement>
+  
 </project>
